@@ -5,8 +5,6 @@ import {
     AppBar,
     Toolbar,
     List,
-    ListItem,
-    ListItemText,
     Typography,
     Box,
     CssBaseline,
@@ -23,7 +21,6 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
         <Box sx={{ display: 'flex' }}>
             <CssBaseline />
 
-            {/* Top Bar */}
             <AppBar
                 position="fixed"
                 sx={{
@@ -39,7 +36,6 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
                 </Toolbar>
             </AppBar>
 
-            {/* Sidebar */}
             <Drawer
                 variant="permanent"
                 sx={{
@@ -68,13 +64,9 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
                         </ListItemButton>
 
                     </List>
-                    <List>
-                        {/* More nav items here if needed */}
-                    </List>
                 </Box>
             </Drawer>
 
-            {/* Page Content */}
             <Box
                 component="main"
                 sx={{
@@ -84,7 +76,7 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
                     minHeight: '100vh',
                 }}
             >
-                <Toolbar /> {/* to push content below AppBar */}
+                <Toolbar />
                 {children}
             </Box>
         </Box>

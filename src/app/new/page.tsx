@@ -13,7 +13,7 @@ import DashboardLayout from '../components/dashboard-layout';
 import { useDispatch } from 'react-redux';
 
 import {useRouter} from "next/navigation";
-import type { AppDispatch } from '../store/store'; // Adjust the path if needed
+import type { AppDispatch } from '../store/store';
 
 export default function NewPostPage() {
     const dispatch = useDispatch<AppDispatch>(); // ✅ Properly typed

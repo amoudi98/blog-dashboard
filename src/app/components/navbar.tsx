@@ -11,10 +11,10 @@ export default function Navbar() {
                     Blog Dashboard
                 </Typography>
                 <Box>
-                    <Link href="/" passHref legacyBehavior>
+                    <Link href="/">
                         <Button color="inherit">Home</Button>
                     </Link>
-                    <Link href="/new" passHref legacyBehavior>
+                    <Link href="/new">
                         <Button variant="contained" color="primary">
                             Add New Post
                         </Button>

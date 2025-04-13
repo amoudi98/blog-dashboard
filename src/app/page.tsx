@@ -20,7 +20,7 @@ export default function HomePage() {
     const { data, isLoading, error } = useGetPostsQuery(page);
     const posts = data?.data || [];
     const totalPages = data?.totalPages || 1;
-
+    // deno-lint-ignore no-explicit-any
     const handlePageChange = (_: any, value: number) => {
         setPage(value);
     };

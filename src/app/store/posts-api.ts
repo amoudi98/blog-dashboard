@@ -12,10 +12,10 @@ export const postsApi = createApi({
     baseQuery: fetchBaseQuery({ baseUrl: 'https://jsonplaceholder.typicode.com/' }),
     endpoints: (builder) => ({
         getPosts: builder.query<{ data: Post[]; totalPages: number }, number | void>({
-            query: (page = 1) => `/posts?_page=${page}&_limit=6`, // adjust page size if needed
+            query: (page = 1) => `/posts?_page=${page}&_limit=6`,
             transformResponse: (response: Post[], meta) => {
                 const totalCount = Number(meta?.response?.headers.get('X-Total-Count') || 0);
-                const totalPages = Math.ceil(totalCount / 6); // same limit as in query
+                const totalPages = Math.ceil(totalCount / 6);
                 return { data: response, totalPages };
             },
         }),
@@ -32,4 +32,4 @@ export const postsApi = createApi({
     }),
 });
 
-export const { useGetPostsQuery, useGetPostByIdQuery, useAddPostMutation, util: postsApiUtil} = postsApi;
+export const { useGetPostsQuery, useGetPostByIdQuery, useAddPostMutation} = postsApi;
