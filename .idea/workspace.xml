@@ -4,32 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25a34b0a-d494-455c-a945-37e70b4b3c78" name="Changes" comment="added workspace xml">
+    <list default="true" id="25a34b0a-d494-455c-a945-37e70b4b3c78" name="Changes" comment="Moved the files to the main directory">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/eslint.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/next.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/public/file.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/public/globe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/public/window.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/src/app/_app.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/src/app/components/dashboard-layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/src/app/components/navbar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/src/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/src/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/src/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/src/app/new/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/src/app/page.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/src/app/posts/[id]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/src/app/providers.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/src/app/store/posts-api.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/src/app/store/store.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-dashboard/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,24 +29,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "amoudi98"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;amoudi98&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/amoudi98/blog-dashboard.git",
-    "accountId": "549c0106-1754-4328-9be5-d8bf9324dfa7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/amoudi98/blog-dashboard.git&quot;,
+    &quot;accountId&quot;: &quot;549c0106-1754-4328-9be5-d8bf9324dfa7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2vdUEgLudFLcDFnJDDKvXAGrLnX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -78,6 +56,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Projects/blog-dashboard",
@@ -86,7 +65,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "C:\\Projects\\blog-dashboard\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -113,6 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1744474334402</updated>
       <workItem from="1744474335590" duration="13089000" />
+      <workItem from="1744530452732" duration="709000" />
     </task>
     <task id="LOCAL-00001" summary="Setup project">
       <option name="closed" value="true" />
@@ -154,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744530300024</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Moved the files to the main directory">
+      <option name="closed" value="true" />
+      <created>1744530537205</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744530537205</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +164,7 @@
     <MESSAGE value="Added posts api and store" />
     <MESSAGE value="Added dashboard, new post, post by id page" />
     <MESSAGE value="added workspace xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="added workspace xml" />
+    <MESSAGE value="Moved the files to the main directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved the files to the main directory" />
   </component>
 </project>
