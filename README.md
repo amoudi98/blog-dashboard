@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Blog Dashboard
 
-## Getting Started
+A blog dashboard built with **Next.js**, **Material UI**, **TypeScript**, and **RTK Query**. Users can view a paginated list of blog posts, read details of a post, and add new posts through a form.
 
-First, run the development server:
+🚀 [Live Demo on Vercel](https://blog-dashboard-j6ay.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 15**
+- **React 18**
+- **Material UI (MUI)**
+- **Redux Toolkit & RTK Query**
+- **TypeScript**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📌 Features
 
-To learn more about Next.js, take a look at the following resources:
+- View paginated blog posts (6 per page)
+- Add a new post with title, author, and content
+- Read full content of a single post
+- Responsive and modern UI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💻 Instructions to Run Locally
 
-## Deploy on Vercel
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/blog-dashboard.git
+   cd blog-dashboard
+2. npm install
+3. npm run dev
+4. Open http://localhost:3000 in your browser to view the app.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Design Decisions & Challenges
+RTK Query for Data Fetching:
+Chosen for its simplicity in managing API calls and cache updates. One challenge was ensuring the post list updates immediately after adding a new post without refetching outdated pagination metadata.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Pagination Management:
+Implemented pagination manually based on mock API response. A challenge was ensuring the post count per page stays consistent when new posts are added.
+
+Material UI for Styling:
+Selected for rapid prototyping and responsiveness. One challenge was customizing components (e.g., Card hover animations) while preserving Material's design language.
+
+Mock API Limitations:
+Since a real backend isn’t used, data doesn’t persist on page refresh. This required careful handling of cache updates to simulate real-world behavior as closely as possible.
